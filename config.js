@@ -1,10 +1,10 @@
 const _config = {
 
     // Client Settings
-    prefix: "s!",
-    token: "your-token",
+    prefix: "!",
+    token: "test",
     date_format: "MM-DD-YYYY HH:mm A",
-    copyright: "© 2021 Your Name",
+    copyright: "© 2025 imgodnyx",
     colorhex: "#eb3734",
     voicechanneltojoin: "some-id",
     port: "8080",
@@ -24,16 +24,16 @@ const _config = {
     },
 
     reports: {
-        enabled: true,
+        enabled: false,
 
         useBuiltInReports: true,
         reportlink: "",
 
         messages: {
             NOTES: "Technically you CANNOT change the ''order'' of the prompts. The first one MUST be the users TAG, the second MUST be the ID, and the rest must stay in the same order, you can however change the default wording if you wish!",
-            prompt1: "Now, provide the user's Name & TAG.\n**Example: Hyperz#0001**.",
+            prompt1: "Now, provide the user's Username.\n**Example: Name123*.",
             
-            prompt2: "Now, provide the user's Discord ID.\n**Example: 704094587836301392**.",
+            prompt2: "Now, provide the user's Discord ID \n**Example: 704094587836301392**.",
             
             prompt3: "What are you reporting this user for?\n**Please provide full detail of all accusations.**",
             
